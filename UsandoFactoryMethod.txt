@@ -1,0 +1,5 @@
+Factory Method:
+
+Defini as fabricas como classes abstratas, elas criam seus próprios objetos, especificados numa interface do produto. Objetos estão implementados em
+classes derivadas. Para adicionar mais produtos, adicionamos ele a fabrica. Isso é um benefício que a implementação voltada à Interfaces garante, a
+manutenção. O contrário seria caso programasse para classes que herdassem de outras, isso dificultaria inclusão de funcionalidades.
