@@ -1,5 +1,3 @@
 Factory Method:
 
-Defini as fabricas como classes abstratas, elas criam seus prÛprios objetos, especificados numa interface do produto. Objetos est„o implementados em
-classes derivadas. Para adicionar mais produtos, adicionamos ele a fabrica. Isso È um benefÌcio que a implementaÁ„o voltada ‡ Interfaces garante, a
-manutenÁ„o. O contr·rio seria caso programasse para classes que herdassem de outras, isso dificultaria inclus„o de funcionalidades.
+Defini as fabricas como classes abstratas, elas criam seus pr√≥prios objetos, especificados numa interface do produto. Objetos est√£o implementados em classes derivadas. Para adicionar mais produtos, adicionamos ele a fabrica. Isso √© um benef√≠cio que a implementa√ß√£o voltada √† Interfaces garante a manuten√ß√£o e uma poss√≠vel nova implementa√ß√£o de um novo produto. O contr√°rio seria caso programasse para classes que herdassem de outras, isso dificultaria inclus√£o de funcionalidades. Um ponto negativo √© replica√ß√£o de c√≥digo.
